@@ -1085,7 +1085,7 @@ input[type="text"] {
 }
 
 .navbar {
-  overflow: hidden;
+  /*overflow: hidden;*/
   background-color: #fff;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
