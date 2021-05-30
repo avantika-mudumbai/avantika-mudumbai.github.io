@@ -1129,6 +1129,26 @@ input[type="text"] {
   color: #fff;
 }
 
+.btn-secondary {
+  background: #fff;
+  color: #FF9000;
+  border: 2px solid #FF9000;
+}
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+  background: #ff9b1a !important;
+  border-color: #ff9b1a !important;
+}
+.btn-secondary.btn-outline {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.btn-secondary.btn-outline:hover, .btn-secondary.btn-outline:focus, .btn-secondary.btn-outline:active {
+  background: #fff;
+  color: #FF9000;
+}
+
+
 .btn-success {
   background: #5cb85c;
   color: #fff;
