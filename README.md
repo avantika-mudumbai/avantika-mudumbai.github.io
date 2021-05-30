@@ -1,1 +1,0 @@
-# avantika-mudumbai.github.io
