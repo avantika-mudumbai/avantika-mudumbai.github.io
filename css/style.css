@@ -1,17 +1,17 @@
-/*@font-face {
-  font-family: 'sans-serif';
+@font-face {
+  font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
   src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
-}*/
+}
 /* =======================================================
 *
 * 	Template Style 
 *
 * ======================================================= */
 body {
-  font-family: Garamond, Arial, serif;
+  font-family: "Space Mono", Arial, serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -48,7 +48,6 @@ body {
 
 a {
   color: #FF9000;
-  /*407be3;*/
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -65,7 +64,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: Garamond, Arial, serif;
+  font-family: "Space Mono", Arial, serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -1085,39 +1084,10 @@ input[type="text"] {
   outline: none;
 }
 
-.navbar {
-  /*overflow: hidden;*/
-  background-color: #fff;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-}
-
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  display: block;
-  color: #FF9000;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change background on mouse-over */
-.navbar a:hover {
-  background: #fff;
-  color: #FF9000;
-}
-
-/* Main content */
-.main {
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
-}
-
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: Garamond, Arial, serif;
+  font-family: "Space Mono", Arial, serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 30px;
@@ -1158,26 +1128,6 @@ input[type="text"] {
   background: #FF9000;
   color: #fff;
 }
-
-.btn-secondary {
-  background: #fff;
-  color: #FF9000;
-  border: 2px solid #FF9000;
-}
-.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background: #ff9b1a !important;
-  border-color: #ff9b1a !important;
-}
-.btn-secondary.btn-outline {
-  background: transparent;
-  color: #fff;
-  border: 2px solid #fff;
-}
-.btn-secondary.btn-outline:hover, .btn-secondary.btn-outline:focus, .btn-secondary.btn-outline:active {
-  background: #fff;
-  color: #FF9000;
-}
-
 
 .btn-success {
   background: #5cb85c;
