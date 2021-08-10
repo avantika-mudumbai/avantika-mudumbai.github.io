@@ -412,17 +412,17 @@
 				<form 
 					action="https://formspree.io/f/xjvjanbp"
 					method="POST"
-					
+					id="form1"
 				>
 					<div class="row form-group">
 						<div class="col-md-12">
-							<textarea type="text" id="_name" name="_name" class="form-control" placeholder="Name" required="required"></textarea>
+							<input type="text" id="_name" name="_name" class="form-control" placeholder="Name" required="required">
 						</div>
 					</div>
 
 					<div class="row form-group">
 						<div class="col-md-12">
-							<textarea type="email" name="_replyto" id="_replyto" class="form-control" placeholder="Email Address" required="required"></textarea>
+							<input type="email" name="_replyto" id="_replyto" class="form-control" placeholder="Email Address" required="required">
 						</div>
 					</div>
 
@@ -432,7 +432,7 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<input type="submit" value="Send Message" class="btn btn-primary">
+						<button type="submit" form="form1" value="Send Message" class="btn btn-primary"> </button>
 					</div>
 					
 				</center>
